@@ -1,3 +1,5 @@
+#[macro_use]
+extern crate model_macro;
 mod config;
 mod models;
 mod repositorios;

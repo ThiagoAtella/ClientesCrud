@@ -1,1 +1,1 @@
-pub mod cliente_repositorio;
+pub mod generico_repositorio;

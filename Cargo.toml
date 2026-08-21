@@ -6,4 +6,4 @@ edition = "2024"
 [dependencies]
 mysql ="*"
 dotenv ="*"
-
+model_macro = { path = "./model_macro" }
