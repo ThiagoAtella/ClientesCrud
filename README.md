@@ -1,8 +1,27 @@
 # ClientesCrud
 
-Versão atual: 0.1.0
+[![Rust](https://img.shields.io/badge/Rust-2024-orange?logo=rust&logoColor=white)](https://www.rust-lang.org/)
+[![MySQL](https://img.shields.io/badge/MySQL-8.x-4479A1?logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![Status](https://img.shields.io/badge/status-active-success)](#)
+[![Versão](https://img.shields.io/badge/version-0.2.0-blue)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+Versão atual: 0.2.0
 
 Aplicativo em Rust para gerenciar um cadastro de clientes por meio de um menu interativo no terminal, com persistência em MySQL.
+
+## Screenshots
+
+<div align="center">
+  <img src="TelaPrincipal.png" alt="Menu principal do ClientesCrud" width="900" />
+</div>
+
+### Exemplos do fluxo do sistema
+
+<div align="center">
+  <img src="ListarClientes.png" alt="Listagem de clientes" width="430" />
+  <img src="Cadastrar.png" alt="Cadastro e atualização de clientes" width="430" />
+</div>
 
 ## Funcionalidades
 - Criar cliente
@@ -82,4 +101,7 @@ Ao executar o programa, o terminal apresenta as opções:
 ## Observações
 - O projeto foi desenvolvido como um CLI simples e não possui interface gráfica.
 - A estrutura do banco atual é baseada na tabela `clientes` com colunas `id`, `nome` e `telefone`.
+
+## Licença
+Este projeto está licenciado sob a [MIT License](LICENSE).
 
